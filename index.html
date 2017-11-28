@@ -16,14 +16,12 @@
 			
 				<div class="container__image">
 				<img src="img/Nike-SB-Stefan-Janoski-Max.png" alt=""> </div>
-				<div class="container__circle">
-					<ul class="container__circle-bg">
-						<li class="container__circle-blue active"><a href="#"></a></li>
-						<li class="container__circle-white"><a href="#"></a></li>
-						<li class="container__circle-red"><a href="#"></a></li>
-						<li class="container__circle-green"><a href="#"></a></li>
+					<ul class="container__circles">
+						<li class="container__circle container__circle--blue active"><a href="#"></a></li>
+						<li class="container__circle container__circle--white"><a href="#"></a></li>
+						<li class="container__circle container__circle--red"><a href="#"></a></li>
+						<li class="container__circle container__circle--green"><a href="#"></a></li>
 					</ul>
-				</div>
 			</div>
 
 			<div class="container__options">
@@ -38,8 +36,8 @@
 						<li class="container__star container__star--grey"></li>
 					</ul>
 				</div>
-			<div class="vr-size">
-      			<select name="Size">
+			<div class="sizes">
+      			<select name="Size" class="size">
 					  <option hidden="" value="">Size</option>
 					  <option value="40">40</option>
 					  <option value="41">41</option>
@@ -47,7 +45,7 @@
 					  <option value="42">43</option>
 					  <option value="42">45</option>
 				</select>
-				<select name="Qty">
+				<select name="Qty" class="qty">
 					  <option hidden="" value="light">Qty</option>
 					  <option value="1">1</option>
 					  <option value="1">2</option>
@@ -56,8 +54,8 @@
 					  <option value="1">5</option>
 				</select>
       		</div>
-      		<div class="vr-submit">
-      			<button class="vr-submit-2" id="submit">Add to card</button>
+      		<div class="buttons">
+      			<button class="button">Add to card</button>
       		</div>		
 		</div>
 		</main>
